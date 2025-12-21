@@ -5,9 +5,8 @@ import json
 import os
 import asyncio
 
-BOT_TOKEN = "8506052391:AAGGsfR_JZDJodEYPYbJDRkrJ-XoiOcatI0"
+BOT_TOKEN = ""
 
-#путь к директории скрипта
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_FILE = os.path.join(SCRIPT_DIR, 'users.json')
 CHARACTERS_FILE = os.path.join(SCRIPT_DIR, 'characters.json')
@@ -556,4 +555,5 @@ def main():
     )
 
 if __name__ == "__main__":
+
     main()
